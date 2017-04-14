@@ -1,0 +1,66 @@
+* {
+    /*border: 1px solid red !important;*/
+    font-family: 'Pangolin', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class = photos] {
+        
+    }
+}
+
+body {
+    background-color: #FFF9C4;
+    list-style: none;
+    
+}
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+h2 {
+    font-family: 'Pangolin', cursive;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.title {
+    margin-right: 1em;
+    text-align: right;
+}
+
+.end {
+    margin-right: 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.logo {
+    margin-top: 2em;
+    margin-right: 33.33%;
+}
+
+.example {
+    margin-right: 1em;
+}
+
+.link {
+    text-align: center;
+}
+
+.large-text {
+    font-size: 25px;
+}
+
+
