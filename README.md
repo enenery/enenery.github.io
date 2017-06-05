@@ -1,2 +1,2 @@
 # enenery.github.io
-Erii's website on Github
+Erii's portfolio on Github
