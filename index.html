@@ -1,84 +1,229 @@
-
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Erii Sugimoto</title>
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  <link rel="stylesheet" src="//snormalize-css.googlecode.com/svn/trunk/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Erii Sugimoto</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-    <div class="col-md-6">
-      <img class=" img-responsive col-md-4 logo" src="img/emoji.png">
-    </div>    
-      <div class="col-md-6 text-right">
-          <h1 class="text-uppercase">Erii Sugimoto</h1>
-          <h4>Hello, I am a Junior Computer Science student at Brooklyn College of City University of New York. I currently work as a research assistant at Borough of Manhattan Community College.</h4>
+    <nav class="first-nav">
+        <div class="w3-bar">
+          <a href="#homey" class="w3-bar-item w3-button w3-mobile">Home</a>
+          <a href="#worky" class="w3-bar-item w3-button w3-mobile">Work Experience</a>
+          <a href="#portfolioy" class="w3-bar-item w3-button w3-mobile">Portfolio</a>
+         <!-- <a href="#skilly" class="w3-bar-item w3-button w3-mobile">Skills</a>
+          <a href="#organizationy" class="w3-bar-item w3-button w3-mobile">Organizations</a> -->
         </div>
-    </div>
-    <hr>
-    <h2>Research Project</h2>
-    <p class="link large-text"><a href="https://github.com/enenery/FootPath">Indoor Navigation Mobile Application for Visually Impaired</a></p>
+    </nav>
+        
+    <nav class="second-nav">
+        <div class="row">
+            <a href="#homey" class="col-sm-4">
+                Home
+            </a>
+            <a href="#worky" class="col-sm-4">
+                Work
+            </a>
+            <a href="#portfolioy" class="col-sm-4">
+                Portfolio
+            </a>
+        </div>
+    </nav>
+    <!-- // Intro -->
+    <header class="home" id="homey">
+        <h1>Erii Sugimoto</h1>
+        <h2>Aspiring Software Engineer</h2>
+        <h3 id="summary"><b>Hello! I am a third-year student at City University of New York - Brooklyn College studying Computer Science and expected to graduate in December 2018.</b> I have experience developing Android and Web apps and helping conduct research on an app intended to assist visually impaired individuals with indoor-navigation. I am passionate about continuing to develop technologies that improve people’s lives and make the world a better place!</h3>
+    </header>
+    
+    <main> 
 
-    <div class="row">
-    <div class="col-md-6 photos">
-      <div class="col-md-4">
-    <img class="img-responsive" src="img/footpath_menu.png">
-    </div>
-    <div class="col-md-4">
-    <img class="img-responsive" src="img/footpath_number.png">
-    </div>
-    <div class="col-md-4">
-    <img class="img-responsive" src="img/footpath_map.png">
-    </div>
-    </div>
-    <div class="col-md-3">
-    <p>Although today outdoor navigation technology is readily available to help people’s day to day lives, indoor navigation technology has yet to become so. With many buildings having more and more complex structures, the need for indoor navigation technology is obvious, especially for those who are visually disadvantaged. Our project is to create an indoor navigation mobile application for people with visually impairments. We are making improvements on an existing project <a href="https://www.comsys.rwth-aachen.de/fileadmin/papers/2011/2011-IPIN-bitsch-footpath.pdf">FootPath</a>.</p>
-    </div>
-    <div class="col-md-3">
-     <div class="day-button days">
-      <h4>Technology Used</h4>
-    </div>
-    <div class = "list">
-      <li>
-        <ul>Android</ul>
-        <ul>Proximity Sensor</ul>
-        <ul>Localization Algorithms</ul>
-      </li>
-    </div>
-  </div>
-    </div>
+        <!-- // Work Experience -->
+        <section class="work" id="worky">
+            <h2>Work Experience</h2>
 
-    <br>
-    <h2>Featured Work</h2>
-    <div class="row">
-    <div class="col-md-4">
-        <img class="img-responsive" src="img/ringbling.JPG">
-        <h3>RingBling - 3D Custom Ring Splints File Maker</h3>
-        <p class="link"><a href="http://ringbling.org/">Website</a></p>
-      </div>
-      <div class="col-md-4">
-        <img class="img-responsive" src="img/TipCalculator-feature-graphic.png">
-        <h3>Tip Calculator App on Android </h3>
-        <p class="link"><a href="https://play.google.com/store/apps/details?id=com.enenery.java.tipcalculator&hl=en">version 1.0 on Google Play</a></p>
-      </div>
+            <!-- Job Details: copy this whole block to add more jobs -->
+            <h3 class="job-title">Android Developer Intern at <a href="http://www2.cuny.edu/about/administration/offices/cis/" target="_blank"><b>CUNY CIS</b></a></h3>
+            <p class="date">Summer 2017</p>
+            
+            <!-- This list can be deleted if you don't want to use it. -->
+            <h3 class="job-project myinfo"><a href="https://play.google.com/store/apps/details?id=edu.cunyfirst.myinfo&hl=en" target="_blank"><b>CUNYFirst-MyInfo (Android)</b></a></h3>
 
-      <div class="col-md-4">
-        <img class="img-responsive" src="img/japaneseAppSized.png">
-        <h3>Japanese Learning App on Android</h3>
-        <p class="link"><a href="https://github.com/enenery/JapaneseApp">Link to project on GitHub</a></p>
-      </div>
-    </div>
+            <h4 class="work-desc">MyInfo is an app that students from all CUNY colleges can access their information such as registered classes, textbooks, and financial aid.</h4>
+            
+            <h5 class="work-desc">My Contributions: </h5>
+            <ul class="job-detail-list">
+                <li>Applied model-view-presenter pattern in the existing application </li>
+                <li>Eliminated 75 % of redundant code and Applied multithreading and reduced the login time by at least 2 seconds</li>
+                <li>Implemented a UX/UI that follow the material design guidelines for Android</li>
+                <li>Developed its version 26 and currently in beta on Google Play</li>
+            </ul>
+            <div class="tech-used-row work-project">
+                <p class="tech-used">android</p>
+                <p class="tech-used">java</p>
+                <p class="tech-used">web-scraping</p>
+                <p class="tech-used">jsoup</p>
+                <p class="tech-used">mvp</p>
+            </div>
+
+            <h3 class="job-project"><b>Global Search (Android) [Prototype]</b></h3>
+            <h4 class="work-desc">Global Search is a class search application available to public as it does not require username and password for access. I built its Android version from the ground up and brought it to about 70% completion on my own.</h4>
+
+            <div class="tech-used-row work-project">
+                <p class="tech-used">android</p>
+                <p class="tech-used">java</p>
+                <p class="tech-used">ksoap2</p>
+                <p class="tech-used">soapui</p>
+                <p class="tech-used">mvp</p>
+            </div>
+        <!-- end of Job Details block. -->          
+        </section>
+
+        <!-- // Portfolio -->
+        <section class="portfolio" id="portfolioy">
+            <h2>Portfolio</h2>
+            
+            <div class="row">
+                <div class="col-lg-12 project">
+                    <img src="images/swlcg_example.png">
+                    <!-- School details: copy this whole block to add more schools. -->
+                    <div class="project-description">
+                        <h4><b>Android Deck Builder App for Star Wars: The Card Game</b></h4>
+                        <p>A deck building app that allows both global and category search and create your decks to save.(soon to be published on Google Play!)</p>
+                        <p class="date">Summer 2017</p>
+                        
+                        <div class="tech-used-row">
+                            <p class="tech-used">android</p>
+                            <p class="tech-used">java</p>
+                            <p class="tech-used">firebase</p>
+                            <p class="tech-used">json</p>
+                            <p class="tech-used">sqlite3</p>
+                            <p class="tech-used">mvp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 project-2 left">
+                    <img src="images/research.png">
+                <!-- School details: copy this whole block to add more schools. -->
+                    <div class="project-description">
+                        <h4><b>Indoor Navigation App for Visually Impaired</b></h4>
+                        <p>Our project is to create an indoor navigation mobile application for people with visually impairments. We are making improvements on an existing project FootPath.<br>(soon to be completed)</p>
+                        <p class="date">Summer 2016 - Summer 2017</p>
+                       
+                       <div style="width:100%;text-align:center;">
+                        <a  href="https://github.com/enenery" target="_blank">
+                            <img src="images/GitHub-Mark-32px.png">
+                        </a></div>
+                        
+                        <div class="tech-used-row">
+                            <p class="tech-used">android</p>
+                            <p class="tech-used">java</p>
+                            <p class="tech-used">josm</p>
+                            <p class="tech-used">html</p>
+                            <p class="tech-used">javascript</p>
+                            <p class="tech-used">proximity-sensor</p>
+                            <p class="tech-used">bluetooth-le</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  project-2 right">
+                    <img src="images/tip-cal.png">
+                    <!-- School details: copy this whole block to add more schools. -->
+                    <div class="project-description">
+
+                    <h4><b>Tip Calculator</b></h4>
+                    <p> My very first Android app for easily calculating tips and spliting bills when dining in!.</p>
+
+                     <p class="date">Winter 2017</p>
+
+                    <div class="row source">
+                        <div class="col-sm-6 logo">
+                            <a id="github" href="https://github.com/enenery" target="_blank">
+                                <img src="images/GitHub-Mark-32px.png"></a>
+                            </div>
+                        <div class="col-sm-6 logo">
+                        <a href="https://github.com/enenery" target="_blank">
+                            <img id="google-store" src="images/google-play-badge.png"></a>
+                            </div>       
+                    </div>
+                    
+                    <div class="tech-used-row">
+                        <p class="tech-used">android</p>
+                        <p class="tech-used">java</p>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+            
+            <!-- End of portfolio details. -->
+        </section>
+
+
+        <!--<section class="skill" id="skilly">
+            <h2>Skills</h2>
+
+    
+            <h3>CUNY Tech Prep</h3>
+            
+            
+            <p>Summary.</p>
+        
+            <h3>WiTNY</h3>
+            
+        
+            <p>Summary.</p>
+        
+        </section>
+
+        <section class="organization" id="organizationy">
+            <h2>Associated Organizations</h2>
+
+            <h3>CUNY Tech Prep</h3>
+            
+            <p>Summary.</p>
+          
+            <h3>WiTNY</h3>
+            
+            <p>Summary.</p>
            
-</div>
+        </section>--> 
+
+    </main>
+    
+    <!-- // Footer & contact info -->
+    <footer>
+        <h2>Let's Keep in Touch!</h2>
+        
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <div class="links">
+            <a href="https://github.com/enenery" target="_blank">
+                <img src="images/GitHub-Mark-32px.png">
+            </a>
+
+            <a href="https://www.linkedin.com/in/erii-sugimoto/" target="_blank">      
+                <img src="images/in-2C-34px-R.png">
+            </a>
+        </div>
+
+        <p id="sign">&copy; 2017 Erii Sugimoto.</p>
+    </footer>
 </body>
-<footer>@2017 Erii Sugimoto.</footer>
 </html>
