@@ -1,0 +1,16 @@
+h3 {
+	font-family: 'Sofia';
+	padding: 8px;
+	text-align: center;
+}
+
+#canvas {
+	border: 1px solid #000000;
+}
+
+.click-btn {
+	width: 200px;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	text-align: center;
+}
